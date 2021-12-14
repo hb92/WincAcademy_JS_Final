@@ -1,0 +1,118 @@
+.bodystyle {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:gainsboro;
+}
+
+.togglemenu {
+    position: fixed;
+    top: 0;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+    background-image: url(hamburger-icon-black.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-color:gainsboro;
+    border: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+
+.togglemenu:hover {
+    background-color: rgb(196, 193, 193);
+}
+
+.welcome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    color: #FFF;
+    text-shadow: 2px 2px #414042;
+}
+
+#menu {
+    position:sticky;
+    top: 100px;
+}
+
+.options {
+    margin-top: 10px;
+    left: 0;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.5em;
+    color: #414042;
+    text-transform: uppercase;
+}    
+
+.options li {
+    margin-top: 0;
+    width: 50%;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+}
+
+.home, .red, .ora, .yel, .gre, .blu, .ind, .vio {
+    padding: 15px;
+    cursor: pointer;
+    
+}
+
+.home {
+    background-color:black;
+    color: #FFF;
+}
+
+.home:hover {
+    color:gainsboro;
+}
+
+.red {
+    background-color: red;
+}
+
+.ora {
+    background-color: orange;
+}
+
+.yel {
+    background-color: yellow;
+}
+
+.gre {
+    background-color: green;
+}
+
+.blu {
+    background-color: blue;
+}
+
+.ind {
+    background-color: indigo;
+}
+
+.vio {
+    background-color: violet;
+}
+
+.red:hover, .ora:hover, .yel:hover, .gre:hover, .blu:hover, .ind:hover, .vio:hover {
+    color: #FFF;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #414042;
+    text-align: center;
+    margin-top: 50px;
+}
